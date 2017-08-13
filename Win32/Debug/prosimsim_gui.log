@@ -1,0 +1,12 @@
+﻿  Moc'ing mainwindow.h...
+  Generate moc_predefs.h
+  Uic'ing mainwindow.ui...
+  moc_mainwindow.cpp
+  main.cpp
+main.cpp(9): warning C4101: “dwResult”: 未引用的局部变量
+  mainwindow.cpp
+mainwindow.cpp(15): warning C4189: “sta”: 局部变量已初始化但不引用
+mainwindow.cpp(39): warning C4189: “sta”: 局部变量已初始化但不引用
+  正在生成代码...
+  prosimsim_gui.vcxproj -> C:\Users\Yifan\Desktop\prosimsim_gui\debug\prosimsim_gui.exe
+  prosimsim_gui.vcxproj -> debug\prosimsim_gui.pdb (Full PDB)
