@@ -1,12 +1,13 @@
-﻿  Moc'ing mainwindow.h...
-  Generate moc_predefs.h
+﻿  Generate moc_predefs.h
   Uic'ing mainwindow.ui...
-  moc_mainwindow.cpp
-  main.cpp
-main.cpp(9): warning C4101: “dwResult”: 未引用的局部变量
   mainwindow.cpp
-mainwindow.cpp(15): warning C4189: “sta”: 局部变量已初始化但不引用
-mainwindow.cpp(39): warning C4189: “sta”: 局部变量已初始化但不引用
-  正在生成代码...
+mainwindow.cpp(31): warning C4091: “static ”: 没有声明变量时忽略“EVENT_ID”的左侧
+mainwindow.cpp(35): warning C4091: “static ”: 没有声明变量时忽略“DATA_DEFINE_ID”的左侧
+mainwindow.cpp(39): warning C4091: “static ”: 没有声明变量时忽略“DATA_REQUEST_ID”的左侧
+mainwindow.cpp(41): warning C4100: “pContext”: 未引用的形参
+mainwindow.cpp(41): warning C4100: “cbData”: 未引用的形参
+mainwindow.cpp(74): warning C4189: “ObjectID”: 局部变量已初始化但不引用
+mainwindow.cpp(111): warning C4189: “sta”: 局部变量已初始化但不引用
+mainwindow.cpp(135): warning C4189: “sta”: 局部变量已初始化但不引用
   prosimsim_gui.vcxproj -> C:\Users\Yifan\Desktop\prosimsim_gui\debug\prosimsim_gui.exe
   prosimsim_gui.vcxproj -> debug\prosimsim_gui.pdb (Full PDB)

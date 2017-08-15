@@ -38,9 +38,23 @@
        </spacer>
       </item>
       <item>
+       <widget class="QPushButton" name="pushButton_2">
+        <property name="text">
+         <string>GetTrueHdg(Simconnect)</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>TextLabel</string>
+        </property>
+       </widget>
+      </item>
+      <item>
        <widget class="QPushButton" name="pushButton">
         <property name="text">
-         <string>GetSpeed</string>
+         <string>GetSpeed(FSUIPC)</string>
         </property>
        </widget>
       </item>

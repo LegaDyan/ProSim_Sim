@@ -33,6 +33,8 @@ public:
     QVBoxLayout *verticalLayout;
     QSlider *horizontalSlider;
     QSpacerItem *verticalSpacer;
+    QPushButton *pushButton_2;
+    QLabel *label_2;
     QPushButton *pushButton;
     QLabel *label;
 
@@ -60,6 +62,16 @@ public:
 
         verticalLayout->addItem(verticalSpacer);
 
+        pushButton_2 = new QPushButton(centralWidget);
+        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+
+        verticalLayout->addWidget(pushButton_2);
+
+        label_2 = new QLabel(centralWidget);
+        label_2->setObjectName(QStringLiteral("label_2"));
+
+        verticalLayout->addWidget(label_2);
+
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QStringLiteral("pushButton"));
 
@@ -83,7 +95,9 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QApplication::translate("MainWindow", "MainWindow", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MainWindow", "GetSpeed", Q_NULLPTR));
+        pushButton_2->setText(QApplication::translate("MainWindow", "GetTrueHdg(Simconnect)", Q_NULLPTR));
+        label_2->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
+        pushButton->setText(QApplication::translate("MainWindow", "GetSpeed(FSUIPC)", Q_NULLPTR));
         label->setText(QApplication::translate("MainWindow", "TextLabel", Q_NULLPTR));
     } // retranslateUi
 

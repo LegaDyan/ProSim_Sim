@@ -117,7 +117,7 @@
     <Link>
       <AdditionalDependencies>C:\QT\5.9.1\MSVC2015\lib\qtmaind.lib;shell32.lib;C:\QT\5.9.1\MSVC2015\lib\Qt5Widgetsd.lib;C:\QT\5.9.1\MSVC2015\lib\Qt5Guid.lib;C:\QT\5.9.1\MSVC2015\lib\Qt5Cored.lib;Qt5Cored.lib;Qt5Guid.lib;Qt5Widgetsd.lib;%(AdditionalDependencies)</AdditionalDependencies>
       <AdditionalLibraryDirectories>C:\QT\5.9.1\MSVC2015\lib;C:\Utils\my_sql\my_sqlx86\lib;C:\Utils\postgresqlx86\pgsql\lib;$(QTDIR)\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalOptions>FSUIPC_User.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>FSUIPC_User.lib SimConnect.lib %(AdditionalOptions)</AdditionalOptions>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreImportLibrary>true</IgnoreImportLibrary>
@@ -186,6 +186,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Generated Files\ui_mainwindow.h" />
+    <ClInclude Include="SimConnect.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets" />
